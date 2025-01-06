@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.14.0.3641 TU Delft",
+	"FriendlyName": "HP Glia Framework",
+	"Description": "Provides blueprints and interfaces to the HP Glia Framework",
+	"Category": "HP",
+	"CreatedBy": "HP Inc",
+	"CreatedByURL": "http://www.hp.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "HPGlia",
+			"Type": "RuntimeAndProgram",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
